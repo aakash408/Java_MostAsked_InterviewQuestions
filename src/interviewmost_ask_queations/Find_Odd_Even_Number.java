@@ -6,13 +6,15 @@ public class Find_Odd_Even_Number {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+
+		// Java program to Find Odd or Even number
+
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter any number: ");
 		int number = sc.nextInt();
-		if(number  / 2 == 0) {
+		if (number / 2 == 0) {
 			System.out.println(number + " is even");
-		}else {
+		} else {
 			System.out.println(number + " is odd");
 		}
 
