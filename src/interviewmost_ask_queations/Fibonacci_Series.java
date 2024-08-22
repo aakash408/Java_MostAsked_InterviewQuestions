@@ -8,10 +8,11 @@ public class Fibonacci_Series {
 	public static void main(String[] args) {
 		// Find Fibonacci series upto a given number range
 
-		Scanner scr = Scanner(System.in);
+		Scanner scr = new Scanner(System.in);
 		System.out.println("Enter a Number : ");
 
 		int number = 6;
+		number=scr.nextInt();
 		int first = 0, second = 1, next;
 
 		System.out.println("Fibonacci series is : ");
@@ -24,11 +25,6 @@ public class Fibonacci_Series {
 			second = next;
 		}
 
-	}
-
-	private static Scanner Scanner(InputStream in) {
-		// TODO Auto-generated method stub
-		return null;
 	}
 
 }

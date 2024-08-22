@@ -10,9 +10,10 @@ public class Factorial {
 
 		int fac = 1;
 
-		Scanner scr = Scanner(System.in);
+		Scanner scr = new Scanner(System.in);
 		System.out.println("Enter the number : ");
 		int num = 5;
+		fac=scr.nextInt();
 
 		for (int i = 1; i <= num; i++) {
 			fac = fac * i;
@@ -22,10 +23,4 @@ public class Factorial {
 
 	}
 
-	private static Scanner Scanner(InputStream in) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
 }
-// wrong out put need to check 
